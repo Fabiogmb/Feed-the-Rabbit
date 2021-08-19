@@ -61,10 +61,9 @@ function draw() {
  drawSprites();
 
 
- //(This an example) I want to take an apple out of the screen when it touches the rabbit. But for some
- //reason, it doesn't appears.
- //I inspected it, and the console is telling me that  Cannot read property 'isTouching' of undefined
- // I tried several times to change it thinking it was a [.remove();] issue, but it isn't, as you can see.
+ //(This an example) I want to take an apple out of the screen when it touches the rabbit. But for some reason, it doesn't appears.
+ //I have inspected it, and the console is telling me that it "Cannot read property 'isTouching' of undefined"
+ // I have tried several times to change it thinking it was a [.remove();] issue, but it isn't, as you can see.
  //Thank you :)
 
  if (apple.isTouching(rabbit)){
